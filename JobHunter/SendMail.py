@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+
+"""" email send """
+
+__author__ = 'maven163@163.com'
+
 import smtplib
 from email.mime.text import MIMEText
 from email.utils import formataddr
@@ -8,7 +14,7 @@ class SendMail:
         # 第三方 SMTP 服务
         mail_host = "smtp.163.com"  # 设置服务器
         mail_user = "maven163@163.com"  # 用户名
-        mail_pass = "mawenxia"  # 口令 这边请使用自己的邮箱服务商的smtp服务口令
+        mail_pass = "mawenxia163"  # 口令 这边请使用自己的邮箱服务商的smtp服务口令
 
         # 邮件发送人
         sender = 'maven163@163.com'

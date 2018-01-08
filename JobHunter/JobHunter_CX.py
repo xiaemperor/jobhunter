@@ -1,4 +1,9 @@
-# coding=utf-8
+# -*- coding: utf-8 -*-
+
+"""" joblist from cxhr.com """
+
+__author__ = 'maven163@163.com'
+
 import requests
 from bs4 import BeautifulSoup
 
